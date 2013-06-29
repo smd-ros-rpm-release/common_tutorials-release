@@ -1,0 +1,12 @@
+Source: ros-hydro-turtle-actionlib
+Section: misc
+Priority: extra
+Maintainer: "Isao Isaac Saito <iisaito@kinugarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-angles, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-turtlesim
+Homepage: http://ros.org/wiki/turtle_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-hydro-turtle-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-angles, ros-hydro-message-generation, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-turtlesim
+Description: turtle_actionlib demonstrates how to write an action server and client with the turtlesim. The shape_server provides and action interface for drawing regular polygons with the turtlesim.
