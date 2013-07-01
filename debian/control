@@ -1,0 +1,12 @@
+Source: ros-hydro-common-tutorials
+Section: misc
+Priority: extra
+Maintainer: "Tully Foote <tfoote@willowgarage.com>, Isaac Saito <iisaito@kinugarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/common_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-common-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-tutorials, ros-hydro-nodelet-tutorial-math, ros-hydro-pluginlib-tutorials, ros-hydro-turtle-actionlib
+Description: Metapackage that contains common tutorials
