@@ -1,0 +1,12 @@
+Source: ros-hydro-actionlib-tutorials
+Section: misc
+Priority: extra
+Maintainer: "Isao Isaac Saito <iisaito@kinugarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-std-msgs
+Homepage: http://www.ros.org/wiki/actionlib/Tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-actionlib-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-message-runtime, ros-hydro-roscpp
+Description: The actionlib_tutorials package
