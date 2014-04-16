@@ -1,0 +1,12 @@
+Source: ros-indigo-turtle-actionlib
+Section: misc
+Priority: extra
+Maintainer: Isao Isaac Saito <iisaito@kinugarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-angles, ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-turtlesim
+Homepage: http://ros.org/wiki/turtle_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtle-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-angles, ros-indigo-message-runtime, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-turtlesim
+Description: turtle_actionlib demonstrates how to write an action server and client with the turtlesim. The shape_server provides and action interface for drawing regular polygons with the turtlesim.
