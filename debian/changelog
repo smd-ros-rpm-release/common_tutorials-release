@@ -1,0 +1,9 @@
+ros-indigo-actionlib-tutorials (0.1.8-0trusty) trusty; urgency=high
+
+  * update package maintainer.
+  * Use _EXPORTED_TARGETS target suffix instead of _generate_messages_cpp
+  * Contributors: Daniel Stonier, Esteve Fernandez
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 04 Nov 2014 15:00:00 -0000
+
+
