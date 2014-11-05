@@ -1,3 +1,29 @@
+## common_tutorials (indigo) - 0.1.8-0
+
+The packages in the `common_tutorials` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo common_tutorials` on `Wed, 05 Nov 2014 13:30:06 -0000`
+
+These packages were released:
+- `actionlib_tutorials`
+- `common_tutorials`
+- `nodelet_tutorial_math`
+- `pluginlib_tutorials`
+- `turtle_actionlib`
+
+Version of package(s) in repository `common_tutorials`:
+- upstream repository: https://github.com/ros/common_tutorials.git
+- release repository: https://github.com/ros-gbp/common_tutorials-release.git
+- rosdistro version: `0.1.7-0`
+- old version: `0.1.7-0`
+- new version: `0.1.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.3`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## common_tutorials (indigo) - 0.1.7-0
 
 The packages in the `common_tutorials` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo common_tutorials` on `Wed, 16 Apr 2014 00:13:57 -0000`
