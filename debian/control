@@ -1,0 +1,12 @@
+Source: ros-indigo-common-tutorials
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/common_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-common-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib-tutorials, ros-indigo-nodelet-tutorial-math, ros-indigo-pluginlib-tutorials, ros-indigo-turtle-actionlib
+Description: Metapackage that contains common tutorials
