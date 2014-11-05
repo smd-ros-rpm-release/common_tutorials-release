@@ -1,0 +1,12 @@
+Source: ros-indigo-nodelet-tutorial-math
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-nodelet, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: http://www.ros.org/wiki/nodelet_tutorial_math
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nodelet-tutorial-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-nodelet, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: Package for Nodelet tutorial.
